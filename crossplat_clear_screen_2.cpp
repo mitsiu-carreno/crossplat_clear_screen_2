@@ -3,11 +3,12 @@
 
 #include "clear_screen.h"
 #include <iostream>
-#include <Windows.h>
+//#include <Windows.h>
 int main()
 {
+    std::cout << "modification\n";
     std::cout << "Hello friend... hello friend, that's lame\n";
-    Sleep(1000);
+    //Sleep(1000);
     ClearScreen();
 
     std::cout << "Maybe i should give you a name, but that's a slippery slope\n";
